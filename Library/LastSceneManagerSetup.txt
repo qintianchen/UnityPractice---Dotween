@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Examples/Chapt4/Chapt4.unity
+- path: Assets/Examples/Chapt5/Chapt5.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -25,6 +25,11 @@ public class Chapt4 : MonoBehaviour
 
         sequence.PrependInterval(1);
         sequence.Prepend(transform.DOMove(-Vector3.one, 2));
+        // 也可以使用预添加来添加回调函数
+        sequence.PrependCallback(() =>
+        {
+            print("Prepend call back here...");
+        });
 
         // 在某个位置插入一个回调函数
         sequence.InsertCallback(2, () =>
